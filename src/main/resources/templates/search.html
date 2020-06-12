@@ -36,8 +36,12 @@
 
     <hr />
 
-    <!-- TODO #4 - Loop over the search results to display all job fields. -->
+    <form method="post">
 
+    <div th:replace="fragments :: page-header"></div>
+    <div th:replace="fragments :: job-listing"></div>
+    <!-- TODO #4 - Loop over the search results to display all job fields. -->
+    </form>
 </div>
 
 </body>
